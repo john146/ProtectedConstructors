@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		52F2A09D1CDFB53B00B7D319 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52F2A09C1CDFB53B00B7D319 /* main.cpp */; };
+		52F2A0A51CDFB5CD00B7D319 /* ProtectedClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52F2A0A31CDFB5CD00B7D319 /* ProtectedClass.cpp */; };
+		52F2A0A81CDFB6DD00B7D319 /* PublicClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52F2A0A61CDFB6DD00B7D319 /* PublicClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		52F2A0991CDFB53B00B7D319 /* ProtectedConstructors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProtectedConstructors; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F2A09C1CDFB53B00B7D319 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52F2A0A31CDFB5CD00B7D319 /* ProtectedClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtectedClass.cpp; sourceTree = "<group>"; };
+		52F2A0A41CDFB5CD00B7D319 /* ProtectedClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProtectedClass.hpp; sourceTree = "<group>"; };
+		52F2A0A61CDFB6DD00B7D319 /* PublicClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PublicClass.cpp; sourceTree = "<group>"; };
+		52F2A0A71CDFB6DD00B7D319 /* PublicClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PublicClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				52F2A09C1CDFB53B00B7D319 /* main.cpp */,
+				52F2A0A31CDFB5CD00B7D319 /* ProtectedClass.cpp */,
+				52F2A0A41CDFB5CD00B7D319 /* ProtectedClass.hpp */,
+				52F2A0A61CDFB6DD00B7D319 /* PublicClass.cpp */,
+				52F2A0A71CDFB6DD00B7D319 /* PublicClass.hpp */,
 			);
 			path = ProtectedConstructors;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F2A09D1CDFB53B00B7D319 /* main.cpp in Sources */,
+				52F2A0A81CDFB6DD00B7D319 /* PublicClass.cpp in Sources */,
+				52F2A0A51CDFB5CD00B7D319 /* ProtectedClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
