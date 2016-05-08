@@ -22,6 +22,9 @@ protected:
     
 private:
     int initialize_;
+    
+    Protected(const Protected&);
+    Protected& operator=(const Protected&);
 };
 
 #endif /* ProtectedClass_hpp */
